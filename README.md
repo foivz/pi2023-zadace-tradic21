@@ -1,12 +1,3 @@
-# Inicijalne upute za izradu zadaća
-Poštovane kolegice i kolege, 
-
-čestitamo vam jer ste uspješno kreirali **repozitorij** koji ćete koristiti za izradu vašeg projekta, tj. za pisanje vaših triju zadaća. To će uključivati izradu dokumentacije i programskog kôda.
-
-Molim vas izmijenite ovaj dokument kako biste u njemu naveli naziv i kratak opis projekta koji obrađujete u vašim zadaćama, kao i vaše osobne podatke. Za upute o sintaksi koju možete koristiti u ovom dokumentu i kod pisanja vaše projektne dokumentacije obavezno pogledajte upute o sintaksi koje su dostupne na Moodleu, a dodatno i [ovaj link](https://guides.github.com/features/mastering-markdown/).
-
-A sada, vrijeme je za prvi korak rada na vašem projektu. 🙂 Za upis/opis vašeg programskog proizvoda molimo vas koristite **predložak** koji je naveden u nastavku. Započnite tako da kliknete na *olovku* u desnom gornjem kutu ovoga dokumenta te izbrišite sve što je iznad _Naziva projekta_, kao i sve upute koje su navedene u zagradama u predlošku ispod.
-
 # Sustav upravljanja teretanom
 
 ## Podaci o studentu
@@ -23,7 +14,8 @@ Dokument za specifikaciju zahtjeva za sustav upravljanja teretanom.
 Zahtjev za softver koji će obuhvatiti evidenciju dolazaka, uplate članarine, računanje pauziranja i penalizacija te praćenje zaliha proteina. Sustav upravljanja teretanom biti će zaštićen lozinkom, a podaci pohranjeni na vanjskoj bazi podataka. Također, sustav će dodatno omogućiti nagrađivanje najredovitijih članova i komunikaciju s članovima putem emaila.
 
 ## Zadatak
-(U root repozitorija učitajte zadatak koji ste dobili i potom ovdje stavite link na njegovo otvaranje!)
+[Korisnički zahtjevi - Teretana.pdf](https://github.com/foivz/pi2023-zadace-tradic21/blob/60b2ae447416e30146e939f8f9d9a0d8784b190e/Korisni%C4%8Dki%20zahtjevi%20-%20Teretana.pdf)
+
 
 ## Resursi
 (Zadaće je obvezno predati u obliku Wiki stranica na ovom repozitoriju. Slike i druge artefakte koje ćete koristiti na wiki stranicama smjestite u mapu dokumentacije u repozitoriju!)
