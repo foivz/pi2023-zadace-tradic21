@@ -7,5 +7,7 @@ Ovo je pomoćna mapa za dokumente i slike koje ćete referencirati u dokumentaci
 ![uredi profil](https://user-images.githubusercontent.com/126482849/226512622-07f970e9-0805-4997-979b-db3b42275acc.png)
 
 
-[Zadatak-Teretana](https://elf.foi.hr/mod/resource/view.php?id=105191)
-[Smjernice za pisanje zahtjeva](https://elf.foi.hr/mod/resource/view.php?id=88609)
+1. Smjernice za pisanje zahtjeva, Sveučilište u Zagrebu, Fakultet organizacije i informatike, Varaždin. Dostupno na: [Smjernice za pisanje zahtjeva](https://elf.foi.hr/mod/resource/view.php?id=88609)
+2. Korisnički zahtjevi za sustav upravljanja teretanom, Sveučilište u Zagrebu, Fakultet organizacije i informatike, Varaždin. Dostupno na: [Korisnički zahtjevi, G2 Sustav upravljanja teretanom](https://elf.foi.hr/pluginfile.php/202424/mod_resource/content/13/Korisni%C4%8Dki%20zahtjevi%20-%20Teretana.pdf)
+3. Analiza i specifikacija zahtjeva - Strukturiranje specifikacija zahtjeva, Sveučilište u Zagrebu, Fakultet organizacije i informatike, Varaždin. Dostupno na: [Analiza i specifikacija zahtjeva - Strukturiranje specifikacija zahtjeva](https://elf.foi.hr/mod/resource/view.php?id=88312)
+4. INCOSE karakteristike zahtjeva, Sveučilište u Zagrebu, Fakultet organizacije i informatike, Varaždin. Dostupno na: [INCOSE karakteristike zahtjeva](https://elf.foi.hr/mod/resource/view.php?id=88676)
