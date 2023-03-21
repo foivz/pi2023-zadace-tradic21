@@ -1,10 +1,11 @@
 Ovo je pomoćna mapa za dokumente i slike koje ćete referencirati u dokumentaciji na svojim wiki stranicama. 
-![ogranicenje pristupa drawio](https://user-images.githubusercontent.com/126482849/226240877-29ac147a-dcce-4534-800b-5983c52e18b3.png)
-![evidencija dolazaka drawio](https://user-images.githubusercontent.com/126482849/226240907-909e5ecb-69d6-4adc-9a24-f30aa10fafd8.png)
-![mijenjanje cijena drawio](https://user-images.githubusercontent.com/126482849/226240945-91e59ea0-8aa4-4859-993a-d461fc0e119f.png)
-![svi clanovi drawio](https://user-images.githubusercontent.com/126482849/226240991-ec376cf1-1bb1-4971-8821-de01c6672505.png)
-![podaci o clanovima drawio](https://user-images.githubusercontent.com/126482849/226240970-14149a57-4c6e-45ca-9517-47361cc75db2.png)
-![grafikon drawio](https://user-images.githubusercontent.com/126482849/226241010-8089b36a-56ee-47b6-8c89-15e6cd869bde.png)
+![grafikon drawio](https://user-images.githubusercontent.com/126482849/226512578-bceb1066-8367-4b00-8cd0-5f3da555e214.png)
+![evidencija dolazaka drawio](https://user-images.githubusercontent.com/126482849/226512597-8c2cfcb7-b565-4576-9b07-dc908037b9f4.png)
+![ogranicenje pristupa drawio](https://user-images.githubusercontent.com/126482849/226512602-6b3065a9-67cf-4ea1-bd37-84b12ae387e7.png)
+![pregled cijena](https://user-images.githubusercontent.com/126482849/226512607-4fbd1719-2a9a-4af6-8a57-f3433765ee18.png)
+![pregled svih clanova](https://user-images.githubusercontent.com/126482849/226512615-1c99241b-fc39-463e-813d-9b0c2d86c8d0.png)
+![uredi profil](https://user-images.githubusercontent.com/126482849/226512622-07f970e9-0805-4997-979b-db3b42275acc.png)
+
 
 [Zadatak-Teretana](https://elf.foi.hr/mod/resource/view.php?id=105191)
 [Smjernice za pisanje zahtjeva](https://elf.foi.hr/mod/resource/view.php?id=88609)
