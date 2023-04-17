@@ -15,19 +15,16 @@ Ovo je pomoćna mapa za dokumente i slike koje ćete referencirati u dokumentaci
 
 ![AKCIJAGeneriranje grafova o dolascima članova](https://user-images.githubusercontent.com/126482849/232596051-6f83947e-ed69-4805-9977-6cc0152d407d.jpg)
 ![AKTIVNOSTIDodavanje novog člana u teretanu](https://user-images.githubusercontent.com/126482849/232596068-31dacd16-61c5-4e06-b880-9b4c39bca82b.jpg)
-![Dodavanje novog člana u teretanu](https://user-images.githubusercontent.com/126482849/232596099-a37c59d1-2223-4891-aeb1-56d856b77053.jpg)
-![ERA dijagram](https://user-images.githubusercontent.com/126482849/232596117-679f3ee0-e094-4c26-8b40-c3fba6b7a64e.jpg)
-![Generiranje grafova o dolascima članova](https://user-images.githubusercontent.com/126482849/232596150-cb248f3d-7f8f-426c-99af-792580f9c740.jpg)
-![glavni use case ](https://user-images.githubusercontent.com/126482849/232596178-c250cadd-6e62-483b-817c-8f29eeeb24b4.jpg)
-![grafikon drawio](https://user-images.githubusercontent.com/126482849/232596213-b103a0c2-b636-4c59-aa2c-63230652f873.png)
-![KLASADodavanje novog člana u teretanu](https://user-images.githubusercontent.com/126482849/232596239-861e003c-307a-40a0-8768-1136c5e3f3bb.jpg)
-![KLASAGeneriranje grafova o dolascima članova](https://user-images.githubusercontent.com/126482849/232596254-9f7ec4e4-2445-478e-85a7-3106897968bb.jpg)
-![Kompletni dijagram klasa](https://user-images.githubusercontent.com/126482849/232596275-352c6b8b-e562-44d5-8874-66fd008288d2.jpg)
-![SEQGeneriranje grafova o dolascima članova](https://user-images.githubusercontent.com/126482849/232596300-a63ee3fa-5ced-4eed-8b8b-283c18c5847c.jpg)
-![svi clanovi drawio](https://user-images.githubusercontent.com/126482849/232596381-3f524400-890a-4a57-90f5-9a1f84569e5a.png)
+![SEQGeneriranje grafova o dolascima članova](https://user-images.githubusercontent.com/126482849/232597141-6c5992fd-e7e3-47e6-9a74-e9e18c178d4a.jpg)
+![Dodavanje novog člana u teretanu](https://user-images.githubusercontent.com/126482849/232597197-572d28e7-52dd-4805-abcb-18d63175baf6.jpg)
+![KLASADodavanje novog člana u teretanu](https://user-images.githubusercontent.com/126482849/232597281-2c8d65d5-8606-4e37-b034-c8dbaa2052a1.jpg)
+![KLASAGeneriranje grafova o dolascima članova](https://user-images.githubusercontent.com/126482849/232597304-94dd352f-df94-41fc-8687-27138deb3370.jpg)
+![svi clanovi drawio](https://user-images.githubusercontent.com/126482849/232597344-fa6ad5c2-686f-46a2-8533-8074944e591c.png)
+![unos podataka](https://user-images.githubusercontent.com/126482849/232597362-b9339d52-0d8f-4a07-aff2-887de90f9b74.png)
+![grafikon drawio](https://user-images.githubusercontent.com/126482849/232597394-b30963ca-b1ad-412c-95b7-19284745f8d2.png)
 
-![upravljanje clanovima](https://user-images.githubusercontent.com/126482849/232596406-32967a42-1cad-4641-a1e3-661fb615c0bd.jpg)
 
-![unos podataka](https://user-images.githubusercontent.com/126482849/232596432-575f3827-aed8-408c-8f79-b16e537bed2b.png)
+![Kompletni dijagram klasa](https://user-images.githubusercontent.com/126482849/232596983-b7d40a6b-04ca-407e-a782-aade0681beff.jpg)
 
+![ERA dijagram](https://user-images.githubusercontent.com/126482849/232596935-368f7603-6e5b-445b-bb85-950fc80f5feb.jpg)
 
