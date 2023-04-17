@@ -13,32 +13,21 @@ Ovo je pomoćna mapa za dokumente i slike koje ćete referencirati u dokumentaci
 4. INCOSE karakteristike zahtjeva, Sveučilište u Zagrebu, Fakultet organizacije i informatike, Varaždin. Dostupno na: [INCOSE karakteristike zahtjeva](https://elf.foi.hr/mod/resource/view.php?id=88676)
 
 
-![AKCIJAGeneriranje grafova o dolascima članova](https://user-images.githubusercontent.com/126482849/232344681-ced88fc1-36f5-42f4-bdd5-2e917fa1d12b.jpg)
+![AKCIJAGeneriranje grafova o dolascima članova](https://user-images.githubusercontent.com/126482849/232596051-6f83947e-ed69-4805-9977-6cc0152d407d.jpg)
+![AKTIVNOSTIDodavanje novog člana u teretanu](https://user-images.githubusercontent.com/126482849/232596068-31dacd16-61c5-4e06-b880-9b4c39bca82b.jpg)
+![Dodavanje novog člana u teretanu](https://user-images.githubusercontent.com/126482849/232596099-a37c59d1-2223-4891-aeb1-56d856b77053.jpg)
+![ERA dijagram](https://user-images.githubusercontent.com/126482849/232596117-679f3ee0-e094-4c26-8b40-c3fba6b7a64e.jpg)
+![Generiranje grafova o dolascima članova](https://user-images.githubusercontent.com/126482849/232596150-cb248f3d-7f8f-426c-99af-792580f9c740.jpg)
+![glavni use case ](https://user-images.githubusercontent.com/126482849/232596178-c250cadd-6e62-483b-817c-8f29eeeb24b4.jpg)
+![grafikon drawio](https://user-images.githubusercontent.com/126482849/232596213-b103a0c2-b636-4c59-aa2c-63230652f873.png)
+![KLASADodavanje novog člana u teretanu](https://user-images.githubusercontent.com/126482849/232596239-861e003c-307a-40a0-8768-1136c5e3f3bb.jpg)
+![KLASAGeneriranje grafova o dolascima članova](https://user-images.githubusercontent.com/126482849/232596254-9f7ec4e4-2445-478e-85a7-3106897968bb.jpg)
+![Kompletni dijagram klasa](https://user-images.githubusercontent.com/126482849/232596275-352c6b8b-e562-44d5-8874-66fd008288d2.jpg)
+![SEQGeneriranje grafova o dolascima članova](https://user-images.githubusercontent.com/126482849/232596300-a63ee3fa-5ced-4eed-8b8b-283c18c5847c.jpg)
+![svi clanovi drawio](https://user-images.githubusercontent.com/126482849/232596381-3f524400-890a-4a57-90f5-9a1f84569e5a.png)
+
+![upravljanje clanovima](https://user-images.githubusercontent.com/126482849/232596406-32967a42-1cad-4641-a1e3-661fb615c0bd.jpg)
+
+![unos podataka](https://user-images.githubusercontent.com/126482849/232596432-575f3827-aed8-408c-8f79-b16e537bed2b.png)
 
 
-https://github.com/foivz/pi2023-zadace-tradic21/wiki/Home1
-![AKTIVNOSTIDodavanje novog člana u teretanu](https://user-images.githubusercontent.com/126482849/232344561-33a24c2a-b7d5-40e6-a97c-687abb217ec1.jpg)
-
-![Dodavanje novog člana u teretanu](https://user-images.githubusercontent.com/126482849/232344568-5f355f0f-84a3-45fc-86dc-b7a7d29a3048.jpg)
-
-![ERA dijagram](https://user-images.githubusercontent.com/126482849/232344572-1b1b6e3b-c058-4f6e-873c-c03cb5cb732e.jpg)
-
-![glavni use case ](https://user-images.githubusercontent.com/126482849/232344706-e3387f77-d079-48dc-8092-91d12448eaf2.jpg)
-
-
-![grafikon drawio](https://user-images.githubusercontent.com/126482849/232344593-fdf058c6-9401-4077-ad71-09f2c5dcdb36.png)
-
-
-![KLASADodavanje novog člana u teretanu](https://user-images.githubusercontent.com/126482849/232344603-53a4295a-aef2-46d5-9841-8ca6c2747de9.jpg)
-
-
-![KLASAGeneriranje grafova o dolascima članova](https://user-images.githubusercontent.com/126482849/232344612-514471cf-c911-4828-9c91-39c1da36f8b5.jpg)
-
-
-![Kompletni dijagram klasa](https://user-images.githubusercontent.com/126482849/232344621-c3d3ba68-00c4-4043-8710-184f21656705.jpg)
-
-![SEQGeneriranje grafova o dolascima članova](https://user-images.githubusercontent.com/126482849/232344633-4c16e2df-2fef-426d-8892-d52236705515.jpg)
-
-![unos podataka](https://user-images.githubusercontent.com/126482849/232344650-36546055-7b5d-4a85-90c1-fead3f3b4107.png)
-
-![upravljanje clanovima](https://user-images.githubusercontent.com/126482849/232344653-aa7401f7-db60-426b-b9bf-45a36d906206.jpg)
