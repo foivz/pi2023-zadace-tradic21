@@ -12,6 +12,8 @@ Ovo je pomoćna mapa za dokumente i slike koje ćete referencirati u dokumentaci
 3. Analiza i specifikacija zahtjeva - Strukturiranje specifikacija zahtjeva, Sveučilište u Zagrebu, Fakultet organizacije i informatike, Varaždin. Dostupno na: [Analiza i specifikacija zahtjeva - Strukturiranje specifikacija zahtjeva](https://elf.foi.hr/mod/resource/view.php?id=88312)
 4. INCOSE karakteristike zahtjeva, Sveučilište u Zagrebu, Fakultet organizacije i informatike, Varaždin. Dostupno na: [INCOSE karakteristike zahtjeva](https://elf.foi.hr/mod/resource/view.php?id=88676)
 
+![glavni use case ](https://user-images.githubusercontent.com/126482849/232597685-7e3a7067-aa6d-48d0-b41e-12a3a4b5d5c5.jpg)
+![upravljanje clanovima](https://user-images.githubusercontent.com/126482849/232597725-05984cbe-953e-4ef9-996b-531185413edf.jpg)
 
 ![AKCIJAGeneriranje grafova o dolascima članova](https://user-images.githubusercontent.com/126482849/232596051-6f83947e-ed69-4805-9977-6cc0152d407d.jpg)
 ![AKTIVNOSTIDodavanje novog člana u teretanu](https://user-images.githubusercontent.com/126482849/232596068-31dacd16-61c5-4e06-b880-9b4c39bca82b.jpg)
