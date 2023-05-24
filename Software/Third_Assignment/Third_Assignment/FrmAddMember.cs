@@ -60,20 +60,6 @@ namespace Third_Assignment
             string membershipStatus = cmbMembershipStatus.Text;
 
 
-
-            SqlConnection con = new SqlConnection();
-            con.ConnectionString = "Data Source=31.147.204.119\\PISERVER,1433;Initial Catalog=IPS23_tradic21;User ID=tradic21;Password=wLJ!1*sP;";
-            SqlCommand cmd = new SqlCommand();
-            cmd.Connection = con;
-
-            cmd.CommandText = "insert into AddMember (Id,Name,Surname,Gender,BirthDate,Phone,Email,JoinDate,Adress,MembershipStatus) values ('" + id + "','" + name + "', '" + surname + "', '" + gender + "', '" + birthDate + "', '" + phone + "', '" + email + "', '" + joinDate + "', '" + adress + "', '" + membershipStatus + "')";
-
-            SqlDataAdapter DA = new SqlDataAdapter(cmd);
-            DataSet DS = new DataSet();
-            DA.Fill(DS);
-            MessageBox.Show("Podaci spremljeni.");
-
-
         }
 
         private void label1_Click_2(object sender, EventArgs e)

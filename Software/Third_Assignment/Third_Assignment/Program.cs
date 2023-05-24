@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DBLayer;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -14,7 +15,9 @@ namespace Third_Assignment
         [STAThread]
         static void Main()
         {
-           
+
+            DB.SetConfiguration("IPS23_tradic21", "tradic21", "wLJ!1*sP");
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new FrmDashboard());
