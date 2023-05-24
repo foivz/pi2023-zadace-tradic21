@@ -16,7 +16,7 @@ namespace Third_Assignment
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmSearch());
+            Application.Run(new FrmDashboard());
         }
     }
 }

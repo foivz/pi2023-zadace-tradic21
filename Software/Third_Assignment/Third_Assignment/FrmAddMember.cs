@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace Third_Assignment
 {
-    public partial class Form1 : Form
+    public partial class FrmAddMember : Form
     {
-        public Form1()
+        public FrmAddMember()
         {
             InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }
