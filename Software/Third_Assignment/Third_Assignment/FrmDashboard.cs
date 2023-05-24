@@ -32,5 +32,10 @@ namespace Third_Assignment
            FrmAddMember addMember = new FrmAddMember();
             addMember.Show();
         }
+
+        private void btnSearchMember_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

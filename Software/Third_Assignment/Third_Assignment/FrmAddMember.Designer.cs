@@ -49,6 +49,8 @@
             this.cmbMembershipStatus = new System.Windows.Forms.ComboBox();
             this.btnSave = new System.Windows.Forms.Button();
             this.btnReset = new System.Windows.Forms.Button();
+            this.lblId = new System.Windows.Forms.Label();
+            this.txtId = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblName
@@ -208,10 +210,15 @@
             // cmbMembershipStatus
             // 
             this.cmbMembershipStatus.FormattingEnabled = true;
+            this.cmbMembershipStatus.Items.AddRange(new object[] {
+            "Učenik",
+            "Student",
+            "Zaposlenik"});
             this.cmbMembershipStatus.Location = new System.Drawing.Point(610, 224);
             this.cmbMembershipStatus.Name = "cmbMembershipStatus";
             this.cmbMembershipStatus.Size = new System.Drawing.Size(150, 28);
             this.cmbMembershipStatus.TabIndex = 17;
+            this.cmbMembershipStatus.SelectedIndexChanged += new System.EventHandler(this.cmbMembershipStatus_SelectedIndexChanged);
             // 
             // btnSave
             // 
@@ -221,6 +228,7 @@
             this.btnSave.TabIndex = 18;
             this.btnSave.Text = "Spremi";
             this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // btnReset
             // 
@@ -231,11 +239,29 @@
             this.btnReset.Text = "Resetiraj";
             this.btnReset.UseVisualStyleBackColor = true;
             // 
+            // lblId
+            // 
+            this.lblId.AutoSize = true;
+            this.lblId.Location = new System.Drawing.Point(49, 9);
+            this.lblId.Name = "lblId";
+            this.lblId.Size = new System.Drawing.Size(30, 20);
+            this.lblId.TabIndex = 20;
+            this.lblId.Text = "ID:";
+            // 
+            // txtId
+            // 
+            this.txtId.Location = new System.Drawing.Point(176, 3);
+            this.txtId.Name = "txtId";
+            this.txtId.Size = new System.Drawing.Size(150, 26);
+            this.txtId.TabIndex = 21;
+            // 
             // FrmAddMember
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(870, 450);
+            this.Controls.Add(this.txtId);
+            this.Controls.Add(this.lblId);
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.cmbMembershipStatus);
@@ -288,5 +314,7 @@
         private System.Windows.Forms.ComboBox cmbMembershipStatus;
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Button btnReset;
+        private System.Windows.Forms.Label lblId;
+        private System.Windows.Forms.TextBox txtId;
     }
 }

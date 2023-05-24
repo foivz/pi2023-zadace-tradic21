@@ -51,6 +51,7 @@
             this.btnSearchMember.TabIndex = 1;
             this.btnSearchMember.Text = "Pretraži člana";
             this.btnSearchMember.UseVisualStyleBackColor = true;
+            this.btnSearchMember.Click += new System.EventHandler(this.btnSearchMember_Click);
             // 
             // btnDeleteMember
             // 
