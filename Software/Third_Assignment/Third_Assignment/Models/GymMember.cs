@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Third_Assignment.Models
 {
-    public abstract class GymMember
+    public class GymMember
     {
         public int Id { get; set; }
         public string Name { get; set; }
