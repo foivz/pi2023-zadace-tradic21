@@ -4,6 +4,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using DBLayer;
 using Third_Assignment.Models;
 
@@ -67,5 +68,26 @@ namespace Third_Assignment.Repositories
 
 
         }
+
+        public static void AddGymMember(GymMember gymMember)
+        {
+            string sql = $"INSERT INTO GymMembers (Id, Name, Surname, Phone, Email, Adress, MembershipStatus) " 
+                + $"VALUES ('{gymMember.Id}','{gymMember.Name}', '{gymMember.Surname}', '{gymMember.Phone}', " 
+                + $"'{gymMember.Email}', '{gymMember.Adress}', '{gymMember.MembershipStatus}')";
+
+            DB.OpenConnection();
+            DB.ExecuteCommand(sql);
+            DB.CloseConnection();
+        }
+
+        
+        public static void ShowGymMembers(DataGridView dataGridView)
+        {
+            List<GymMember> gymMembers = GetGymMembers();
+            dataGridView.DataSource = gymMembers;
+        }
+
+
+
     }
 }

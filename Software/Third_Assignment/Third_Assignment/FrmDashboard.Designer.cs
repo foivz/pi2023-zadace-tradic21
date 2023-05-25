@@ -34,6 +34,7 @@
             this.txtEnterId = new System.Windows.Forms.TextBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.btnSearch = new System.Windows.Forms.Button();
+            this.btnAddMember = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvGymMembers)).BeginInit();
             this.SuspendLayout();
             // 
@@ -72,19 +73,30 @@
             // 
             // btnSearch
             // 
-            this.btnSearch.Location = new System.Drawing.Point(311, 24);
+            this.btnSearch.Location = new System.Drawing.Point(311, 16);
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(85, 27);
+            this.btnSearch.Size = new System.Drawing.Size(121, 44);
             this.btnSearch.TabIndex = 3;
             this.btnSearch.Text = "Pretraži";
             this.btnSearch.UseVisualStyleBackColor = true;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click_1);
+            // 
+            // btnAddMember
+            // 
+            this.btnAddMember.Location = new System.Drawing.Point(41, 352);
+            this.btnAddMember.Name = "btnAddMember";
+            this.btnAddMember.Size = new System.Drawing.Size(121, 44);
+            this.btnAddMember.TabIndex = 4;
+            this.btnAddMember.Text = "Dodaj člana";
+            this.btnAddMember.UseVisualStyleBackColor = true;
+            this.btnAddMember.Click += new System.EventHandler(this.btnAddMember_Click);
             // 
             // FrmDashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(942, 450);
+            this.Controls.Add(this.btnAddMember);
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.txtEnterId);
             this.Controls.Add(this.lblEnterId);
@@ -105,5 +117,6 @@
         private System.Windows.Forms.TextBox txtEnterId;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.Button btnSearch;
+        private System.Windows.Forms.Button btnAddMember;
     }
 }

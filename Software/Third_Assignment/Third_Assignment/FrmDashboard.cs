@@ -12,25 +12,27 @@ using System.Windows.Forms;
 using System.Data.SqlClient;
 using DBLayer;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using System.Xml.Linq;
 
 namespace Third_Assignment
 {
     public partial class FrmDashboard : Form
     {
+        
+
         public FrmDashboard()
         {
             InitializeComponent();
         }
 
-        private void Dashboard_Load(object sender, EventArgs e)
+        public void Dashboard_Load(object sender, EventArgs e)
         {
-            ShowGymMembers();
+            ShowGymMembersInDataGridView();
         }
-        private void ShowGymMembers()
-        {
-            List<GymMember> gymMembers = GymMemberRepository.GetGymMembers();
-            dgvGymMembers.DataSource = gymMembers;
 
+        public void ShowGymMembersInDataGridView()
+        {
+            GymMemberRepository.ShowGymMembers(dgvGymMembers);
         }
 
         private void dgvGymMembers_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -82,6 +84,13 @@ namespace Third_Assignment
                 // Tekstualno polje za pretraživanje je prazno
                 MessageBox.Show("Unesite identifikacijski broj za pretraživanje.");
             }
+        }
+
+        private void btnAddMember_Click(object sender, EventArgs e)
+        {
+            FrmAddGymMember frmAddGymMember = new FrmAddGymMember();
+            frmAddGymMember.Show();
+
         }
     }
 }
