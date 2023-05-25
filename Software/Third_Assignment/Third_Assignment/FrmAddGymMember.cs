@@ -48,5 +48,21 @@ namespace Third_Assignment
             // Zatvaranje trenutne forme
             this.Close();
         }
+
+        private void FrmAddGymMember_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnReset_Click(object sender, EventArgs e)
+        {
+            txtId.Clear();
+            txtName.Clear();
+            txtSurname.Clear();
+            txtPhone.Clear();
+            txtEmail.Clear();
+            txtAdress.Clear();
+            txtMembershipStatus.Clear();
+        }
     }
 }

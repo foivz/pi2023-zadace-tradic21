@@ -43,6 +43,7 @@
             this.txtAdress = new System.Windows.Forms.TextBox();
             this.txtMembershipStatus = new System.Windows.Forms.TextBox();
             this.btnSave = new System.Windows.Forms.Button();
+            this.btnReset = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblId
@@ -167,11 +168,22 @@
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
+            // btnReset
+            // 
+            this.btnReset.Location = new System.Drawing.Point(327, 358);
+            this.btnReset.Name = "btnReset";
+            this.btnReset.Size = new System.Drawing.Size(122, 40);
+            this.btnReset.TabIndex = 15;
+            this.btnReset.Text = "Resetiraj";
+            this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
+            // 
             // FrmAddGymMember
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnReset);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.txtMembershipStatus);
             this.Controls.Add(this.txtAdress);
@@ -189,6 +201,7 @@
             this.Controls.Add(this.lblId);
             this.Name = "FrmAddGymMember";
             this.Text = "FrmAddGymMember";
+            this.Load += new System.EventHandler(this.FrmAddGymMember_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -211,5 +224,6 @@
         private System.Windows.Forms.TextBox txtAdress;
         private System.Windows.Forms.TextBox txtMembershipStatus;
         private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.Button btnReset;
     }
 }

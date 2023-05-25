@@ -88,6 +88,23 @@ namespace Third_Assignment.Repositories
         }
 
 
+        public static void UpdateGymMember(GymMember gymMember)
+        {
+            string sql = $"UPDATE GymMembers SET " +
+                         $"Name = '{gymMember.Name}', " +
+                         $"Surname = '{gymMember.Surname}', " +
+                         $"Phone = {gymMember.Phone}, " +
+                         $"Email = '{gymMember.Email}', " +
+                         $"Adress = '{gymMember.Adress}', " +
+                         $"MembershipStatus = '{gymMember.MembershipStatus}' " +
+                         $"WHERE Id = {gymMember.Id}";
+
+            DB.OpenConnection();
+            DB.ExecuteCommand(sql);
+            DB.CloseConnection();
+        }
+
+
 
     }
 }
