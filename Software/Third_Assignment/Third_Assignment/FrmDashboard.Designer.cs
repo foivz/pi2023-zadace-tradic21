@@ -35,6 +35,7 @@
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.btnSearch = new System.Windows.Forms.Button();
             this.btnAddMember = new System.Windows.Forms.Button();
+            this.btnDeleteMember = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvGymMembers)).BeginInit();
             this.SuspendLayout();
             // 
@@ -91,11 +92,22 @@
             this.btnAddMember.UseVisualStyleBackColor = true;
             this.btnAddMember.Click += new System.EventHandler(this.btnAddMember_Click);
             // 
+            // btnDeleteMember
+            // 
+            this.btnDeleteMember.Location = new System.Drawing.Point(450, 16);
+            this.btnDeleteMember.Name = "btnDeleteMember";
+            this.btnDeleteMember.Size = new System.Drawing.Size(121, 44);
+            this.btnDeleteMember.TabIndex = 5;
+            this.btnDeleteMember.Text = "Obriši člana";
+            this.btnDeleteMember.UseVisualStyleBackColor = true;
+            this.btnDeleteMember.Click += new System.EventHandler(this.btnDeleteMember_Click);
+            // 
             // FrmDashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(942, 450);
+            this.Controls.Add(this.btnDeleteMember);
             this.Controls.Add(this.btnAddMember);
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.txtEnterId);
@@ -118,5 +130,6 @@
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.Button btnAddMember;
+        private System.Windows.Forms.Button btnDeleteMember;
     }
 }

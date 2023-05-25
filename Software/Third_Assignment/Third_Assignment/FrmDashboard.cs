@@ -52,36 +52,29 @@ namespace Third_Assignment
             if (!string.IsNullOrEmpty(txtEnterId.Text))
             {
                 int memberId;
-                // Pokušajte pretvoriti uneseni tekst u identifikacijski broj
+            
                 if (int.TryParse(txtEnterId.Text, out memberId))
                 {
-                    // Dohvati samo jednog člana teretane na temelju identifikacijskog broja
                     GymMember gymMember = GymMemberRepository.GetGymMember(memberId);
 
-                    // Provjerite je li pronađen član teretane s tim identifikacijskim brojem
                     if (gymMember != null)
                     {
-                        // Kreirajte novu listu s samo jednim članom teretane
                         List<GymMember> singleMemberList = new List<GymMember> { gymMember };
 
-                        // Postavite izvor podataka za DataGridView na novu listu s jednim članom teretane
                         dgvGymMembers.DataSource = singleMemberList;
                     }
                     else
                     {
-                        // Član teretane nije pronađen s unesenim identifikacijskim brojem
                         MessageBox.Show("Član teretane s tim identifikacijskim brojem nije pronađen.");
                     }
                 }
                 else
                 {
-                    // Neispravan format identifikacijskog broja
                     MessageBox.Show("Uneseni identifikacijski broj nije valjan.");
                 }
             }
             else
             {
-                // Tekstualno polje za pretraživanje je prazno
                 MessageBox.Show("Unesite identifikacijski broj za pretraživanje.");
             }
         }
@@ -91,6 +84,38 @@ namespace Third_Assignment
             FrmAddGymMember frmAddGymMember = new FrmAddGymMember();
             frmAddGymMember.Show();
 
+        }
+
+        private void btnDeleteMember_Click(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(txtEnterId.Text))
+            {
+                int memberId;
+
+                if (int.TryParse(txtEnterId.Text, out memberId))
+                {
+                    try
+                    {
+                        GymMemberRepository.DeleteGymMember(memberId);
+
+                        ShowGymMembersInDataGridView();
+
+                        MessageBox.Show("Član teretane uspješno izbrisan.");
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show(ex.Message);
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Uneseni identifikacijski broj nije valjan.");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Unesite identifikacijski broj člana za brisanje.");
+            }
         }
     }
 }

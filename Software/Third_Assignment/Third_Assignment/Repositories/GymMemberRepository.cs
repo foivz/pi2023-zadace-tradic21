@@ -87,6 +87,23 @@ namespace Third_Assignment.Repositories
             dataGridView.DataSource = gymMembers;
         }
 
+        public static void DeleteGymMember(int id)
+        {
+            if (GetGymMember(id) != null)
+            {
+                string sql = $"DELETE FROM GymMembers WHERE Id = {id}";
+
+                DB.OpenConnection();
+                DB.ExecuteCommand(sql);
+                DB.CloseConnection();
+            }
+            else
+            {
+                throw new Exception("Član teretane s unesenim ID-om ne postoji.");
+            }
+            
+        }
+
 
         public static void UpdateGymMember(GymMember gymMember)
         {
