@@ -30,7 +30,6 @@
         {
             this.lblName = new System.Windows.Forms.Label();
             this.lblSurname = new System.Windows.Forms.Label();
-            this.lblGender = new System.Windows.Forms.Label();
             this.lblBirthDate = new System.Windows.Forms.Label();
             this.lblPhone = new System.Windows.Forms.Label();
             this.lblEmail = new System.Windows.Forms.Label();
@@ -42,8 +41,6 @@
             this.txtPhone = new System.Windows.Forms.TextBox();
             this.txtAdress = new System.Windows.Forms.TextBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
-            this.rdoMale = new System.Windows.Forms.RadioButton();
-            this.rdoFemale = new System.Windows.Forms.RadioButton();
             this.dtpBirthDate = new System.Windows.Forms.DateTimePicker();
             this.dtpJoinDate = new System.Windows.Forms.DateTimePicker();
             this.cmbMembershipStatus = new System.Windows.Forms.ComboBox();
@@ -56,7 +53,7 @@
             // lblName
             // 
             this.lblName.AutoSize = true;
-            this.lblName.Location = new System.Drawing.Point(48, 55);
+            this.lblName.Location = new System.Drawing.Point(48, 121);
             this.lblName.Name = "lblName";
             this.lblName.Size = new System.Drawing.Size(40, 20);
             this.lblName.TabIndex = 0;
@@ -66,21 +63,11 @@
             // lblSurname
             // 
             this.lblSurname.AutoSize = true;
-            this.lblSurname.Location = new System.Drawing.Point(48, 113);
+            this.lblSurname.Location = new System.Drawing.Point(48, 179);
             this.lblSurname.Name = "lblSurname";
             this.lblSurname.Size = new System.Drawing.Size(70, 20);
             this.lblSurname.TabIndex = 1;
             this.lblSurname.Text = "Prezime:";
-            // 
-            // lblGender
-            // 
-            this.lblGender.AutoSize = true;
-            this.lblGender.Location = new System.Drawing.Point(48, 171);
-            this.lblGender.Name = "lblGender";
-            this.lblGender.Size = new System.Drawing.Size(45, 20);
-            this.lblGender.TabIndex = 2;
-            this.lblGender.Text = "Spol:";
-            this.lblGender.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // lblBirthDate
             // 
@@ -138,14 +125,14 @@
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(176, 52);
+            this.txtName.Location = new System.Drawing.Point(176, 118);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(150, 26);
             this.txtName.TabIndex = 9;
             // 
             // txtSurname
             // 
-            this.txtSurname.Location = new System.Drawing.Point(176, 107);
+            this.txtSurname.Location = new System.Drawing.Point(176, 173);
             this.txtSurname.Name = "txtSurname";
             this.txtSurname.Size = new System.Drawing.Size(150, 26);
             this.txtSurname.TabIndex = 10;
@@ -170,28 +157,6 @@
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(150, 26);
             this.txtEmail.TabIndex = 13;
-            // 
-            // rdoMale
-            // 
-            this.rdoMale.AutoSize = true;
-            this.rdoMale.Location = new System.Drawing.Point(176, 171);
-            this.rdoMale.Name = "rdoMale";
-            this.rdoMale.Size = new System.Drawing.Size(47, 24);
-            this.rdoMale.TabIndex = 14;
-            this.rdoMale.TabStop = true;
-            this.rdoMale.Text = "M";
-            this.rdoMale.UseVisualStyleBackColor = true;
-            // 
-            // rdoFemale
-            // 
-            this.rdoFemale.AutoSize = true;
-            this.rdoFemale.Location = new System.Drawing.Point(254, 171);
-            this.rdoFemale.Name = "rdoFemale";
-            this.rdoFemale.Size = new System.Drawing.Size(44, 24);
-            this.rdoFemale.TabIndex = 15;
-            this.rdoFemale.TabStop = true;
-            this.rdoFemale.Text = "Ž";
-            this.rdoFemale.UseVisualStyleBackColor = true;
             // 
             // dtpBirthDate
             // 
@@ -242,7 +207,7 @@
             // lblId
             // 
             this.lblId.AutoSize = true;
-            this.lblId.Location = new System.Drawing.Point(49, 9);
+            this.lblId.Location = new System.Drawing.Point(49, 75);
             this.lblId.Name = "lblId";
             this.lblId.Size = new System.Drawing.Size(30, 20);
             this.lblId.TabIndex = 20;
@@ -250,7 +215,7 @@
             // 
             // txtId
             // 
-            this.txtId.Location = new System.Drawing.Point(176, 3);
+            this.txtId.Location = new System.Drawing.Point(176, 69);
             this.txtId.Name = "txtId";
             this.txtId.Size = new System.Drawing.Size(150, 26);
             this.txtId.TabIndex = 21;
@@ -267,8 +232,6 @@
             this.Controls.Add(this.cmbMembershipStatus);
             this.Controls.Add(this.dtpJoinDate);
             this.Controls.Add(this.dtpBirthDate);
-            this.Controls.Add(this.rdoFemale);
-            this.Controls.Add(this.rdoMale);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.txtAdress);
             this.Controls.Add(this.txtPhone);
@@ -280,7 +243,6 @@
             this.Controls.Add(this.lblEmail);
             this.Controls.Add(this.lblPhone);
             this.Controls.Add(this.lblBirthDate);
-            this.Controls.Add(this.lblGender);
             this.Controls.Add(this.lblSurname);
             this.Controls.Add(this.lblName);
             this.Name = "FrmAddMember";
@@ -295,7 +257,6 @@
 
         private System.Windows.Forms.Label lblName;
         private System.Windows.Forms.Label lblSurname;
-        private System.Windows.Forms.Label lblGender;
         private System.Windows.Forms.Label lblBirthDate;
         private System.Windows.Forms.Label lblPhone;
         private System.Windows.Forms.Label lblEmail;
@@ -307,8 +268,6 @@
         private System.Windows.Forms.TextBox txtPhone;
         private System.Windows.Forms.TextBox txtAdress;
         private System.Windows.Forms.TextBox txtEmail;
-        private System.Windows.Forms.RadioButton rdoMale;
-        private System.Windows.Forms.RadioButton rdoFemale;
         private System.Windows.Forms.DateTimePicker dtpBirthDate;
         private System.Windows.Forms.DateTimePicker dtpJoinDate;
         private System.Windows.Forms.ComboBox cmbMembershipStatus;
