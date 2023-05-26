@@ -37,6 +37,7 @@
             this.btnAddMember = new System.Windows.Forms.Button();
             this.btnDeleteMember = new System.Windows.Forms.Button();
             this.btnUpdateMember = new System.Windows.Forms.Button();
+            this.btnReload = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvGymMembers)).BeginInit();
             this.SuspendLayout();
             // 
@@ -95,7 +96,7 @@
             // 
             // btnDeleteMember
             // 
-            this.btnDeleteMember.Location = new System.Drawing.Point(450, 16);
+            this.btnDeleteMember.Location = new System.Drawing.Point(588, 16);
             this.btnDeleteMember.Name = "btnDeleteMember";
             this.btnDeleteMember.Size = new System.Drawing.Size(121, 44);
             this.btnDeleteMember.TabIndex = 5;
@@ -113,11 +114,22 @@
             this.btnUpdateMember.UseVisualStyleBackColor = true;
             this.btnUpdateMember.Click += new System.EventHandler(this.btnUpdateMember_Click);
             // 
+            // btnReload
+            // 
+            this.btnReload.Location = new System.Drawing.Point(452, 16);
+            this.btnReload.Name = "btnReload";
+            this.btnReload.Size = new System.Drawing.Size(121, 44);
+            this.btnReload.TabIndex = 7;
+            this.btnReload.Text = "Ponovno učitaj";
+            this.btnReload.UseVisualStyleBackColor = true;
+            this.btnReload.Click += new System.EventHandler(this.btnReload_Click);
+            // 
             // FrmDashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(942, 450);
+            this.Controls.Add(this.btnReload);
             this.Controls.Add(this.btnUpdateMember);
             this.Controls.Add(this.btnDeleteMember);
             this.Controls.Add(this.btnAddMember);
@@ -144,5 +156,6 @@
         private System.Windows.Forms.Button btnAddMember;
         private System.Windows.Forms.Button btnDeleteMember;
         private System.Windows.Forms.Button btnUpdateMember;
+        private System.Windows.Forms.Button btnReload;
     }
 }

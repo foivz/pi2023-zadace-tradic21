@@ -18,8 +18,6 @@ namespace Third_Assignment
 {
     public partial class FrmDashboard : Form
     {
-        
-
         public FrmDashboard()
         {
             InitializeComponent();
@@ -147,6 +145,12 @@ namespace Third_Assignment
             {
                 MessageBox.Show("Unesite identifikacijski broj za pretraživanje.");
             }
+        }
+
+        private void btnReload_Click(object sender, EventArgs e)
+        {
+            List<GymMember> gymMembers = GymMemberRepository.GetGymMembers();
+            dgvGymMembers.DataSource = gymMembers;
         }
     }
 }
