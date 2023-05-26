@@ -36,6 +36,7 @@
             this.btnSearch = new System.Windows.Forms.Button();
             this.btnAddMember = new System.Windows.Forms.Button();
             this.btnDeleteMember = new System.Windows.Forms.Button();
+            this.btnUpdateMember = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvGymMembers)).BeginInit();
             this.SuspendLayout();
             // 
@@ -102,11 +103,22 @@
             this.btnDeleteMember.UseVisualStyleBackColor = true;
             this.btnDeleteMember.Click += new System.EventHandler(this.btnDeleteMember_Click);
             // 
+            // btnUpdateMember
+            // 
+            this.btnUpdateMember.Location = new System.Drawing.Point(188, 352);
+            this.btnUpdateMember.Name = "btnUpdateMember";
+            this.btnUpdateMember.Size = new System.Drawing.Size(121, 44);
+            this.btnUpdateMember.TabIndex = 6;
+            this.btnUpdateMember.Text = "Ažuriraj člana";
+            this.btnUpdateMember.UseVisualStyleBackColor = true;
+            this.btnUpdateMember.Click += new System.EventHandler(this.btnUpdateMember_Click);
+            // 
             // FrmDashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(942, 450);
+            this.Controls.Add(this.btnUpdateMember);
             this.Controls.Add(this.btnDeleteMember);
             this.Controls.Add(this.btnAddMember);
             this.Controls.Add(this.btnSearch);
@@ -131,5 +143,6 @@
         private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.Button btnAddMember;
         private System.Windows.Forms.Button btnDeleteMember;
+        private System.Windows.Forms.Button btnUpdateMember;
     }
 }

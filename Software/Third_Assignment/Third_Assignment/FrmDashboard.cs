@@ -117,5 +117,36 @@ namespace Third_Assignment
                 MessageBox.Show("Unesite identifikacijski broj člana za brisanje.");
             }
         }
+
+        private void btnUpdateMember_Click(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(txtEnterId.Text))
+            {
+                int memberId;
+              
+                if (int.TryParse(txtEnterId.Text, out memberId))
+                {
+                    GymMember gymMember = GymMemberRepository.GetGymMember(memberId);
+
+                    if (gymMember != null)
+                    {
+                        FrmUpdateGymMember frmUpdateGymMember = new FrmUpdateGymMember(memberId);
+                        frmUpdateGymMember.Show();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Član teretane s tim identifikacijskim brojem nije pronađen.");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Uneseni identifikacijski broj nije valjan.");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Unesite identifikacijski broj za pretraživanje.");
+            }
+        }
     }
 }

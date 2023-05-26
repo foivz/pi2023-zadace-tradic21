@@ -62,6 +62,12 @@
     <Compile Include="FrmDashboard.Designer.cs">
       <DependentUpon>FrmDashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmUpdateGymMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUpdateGymMember.Designer.cs">
+      <DependentUpon>FrmUpdateGymMember.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\GymMember.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -71,6 +77,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmDashboard.resx">
       <DependentUpon>FrmDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUpdateGymMember.resx">
+      <DependentUpon>FrmUpdateGymMember.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
