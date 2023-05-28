@@ -23,11 +23,19 @@ namespace Third_Assignment
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Metoda "Dashboard_Load" je metoda koja se poziva prilikom učitavanja FrmDashboard forme i koristi metodu "ShowGymMembersInDataGridView" kako bi prikazala članove teretane u DataGridView kontrolu.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         public void Dashboard_Load(object sender, EventArgs e)
         {
             ShowGymMembersInDataGridView();
         }
 
+        /// <summary>
+        /// Metoda "ShowGymMembersInDataGridView" koristi metodu "ShowGymMembers" iz GymMemberRepository klase kako bi prikazala članove teretane u DataGridView kontrolu "dgvGymMembers".
+        /// </summary>
         public void ShowGymMembersInDataGridView()
         {
             GymMemberRepository.ShowGymMembers(dgvGymMembers);
@@ -45,6 +53,11 @@ namespace Third_Assignment
             
         }
 
+        /// <summary>
+        /// Metoda "btnSearch_Click_1" je metoda koja se poziva prilikom klika na gumb "Pretraži" i provjerava uneseni identifikacijski broj člana teretane, nakon čega dohvaća podatke o članu ako postoji te ih prikazuje u DataGridView kontrolu "dgvGymMembers", u suprotnom prikazuje odgovarajuću poruku o rezultatu pretrage ili o neispravnom unosu identifikacijskog broja.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnSearch_Click_1(object sender, EventArgs e)
         {
             if (!string.IsNullOrEmpty(txtEnterId.Text))
@@ -77,6 +90,12 @@ namespace Third_Assignment
             }
         }
 
+
+        /// <summary>
+        /// Metoda "btnAddMember_Click" je metoda koja se poziva prilikom klika na gumb "Dodaj člana" i otvara FrmAddGymMember formu za dodavanje novog člana teretane.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnAddMember_Click(object sender, EventArgs e)
         {
             FrmAddGymMember frmAddGymMember = new FrmAddGymMember();
@@ -84,6 +103,11 @@ namespace Third_Assignment
 
         }
 
+        /// <summary>
+        /// Metoda "btnDeleteMember_Click" je događajna metoda koja se poziva prilikom klika na gumb "Izbriši člana" i provjerava uneseni identifikacijski broj člana teretane, nakon čega pokušava izbrisati člana.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnDeleteMember_Click(object sender, EventArgs e)
         {
             if (!string.IsNullOrEmpty(txtEnterId.Text))
@@ -116,6 +140,11 @@ namespace Third_Assignment
             }
         }
 
+        /// <summary>
+        /// Metoda "btnUpdateMember_Click" je metoda koja se poziva prilikom klika na gumb "Ažuriraj člana" i provjerava uneseni identifikacijski broj člana teretane, nakon čega dohvaća podatke o članu ako postoji te otvara FrmUpdateGymMember formu za ažuriranje podataka tog člana
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnUpdateMember_Click(object sender, EventArgs e)
         {
             if (!string.IsNullOrEmpty(txtEnterId.Text))
@@ -147,10 +176,20 @@ namespace Third_Assignment
             }
         }
 
+        /// <summary>
+        /// Metoda "btnReload_Click" je metoda koja se poziva prilikom klika na gumb "Osvježi" i dohvaća sve članove teretane.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnReload_Click(object sender, EventArgs e)
         {
             List<GymMember> gymMembers = GymMemberRepository.GetGymMembers();
             dgvGymMembers.DataSource = gymMembers;
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

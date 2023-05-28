@@ -5,7 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Third_Assignment.Models
-{
+{/// <summary>
+/// Kod definira javnu klasu "GymMember" s atributima za ID, ime, prezime, broj telefona, e-mail, adresa i status članstva.
+/// </summary>
     public class GymMember
     {
         public int Id { get; set; }

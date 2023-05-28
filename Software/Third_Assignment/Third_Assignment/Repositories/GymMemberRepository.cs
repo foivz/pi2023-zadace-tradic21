@@ -12,6 +12,11 @@ namespace Third_Assignment.Repositories
 {
     public class GymMemberRepository
     {
+        /// <summary>
+        /// Metoda "GetGymMember" je statička metoda koja vraća objekt tipa "GymMember" na temelju ID-a iz baze podataka.
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         public static GymMember GetGymMember(int id)
         {
             GymMember gymMember = null;
@@ -28,6 +33,10 @@ namespace Third_Assignment.Repositories
             return gymMember;
         }
 
+        /// <summary>
+        /// Metoda "GetGymMembers" je statička metoda koja vraća listu objekata tipa "GymMember" s podacima svih članova teretane iz baze.
+        /// </summary>
+        /// <returns></returns>
         public static List<GymMember> GetGymMembers()
         {
             List<GymMember> gymMembers = new List<GymMember>();
@@ -44,6 +53,11 @@ namespace Third_Assignment.Repositories
             return gymMembers;
         }
 
+        /// <summary>
+        /// Metoda "CreateObject" je statička metoda koja prima SqlDataReader objekt i vraća objekt tipa "GymMember".
+        /// </summary>
+        /// <param name="reader"></param>
+        /// <returns></returns>
         private static GymMember CreateObject(SqlDataReader reader)
         {
             int id = int.Parse(reader["Id"].ToString());
@@ -69,6 +83,10 @@ namespace Third_Assignment.Repositories
 
         }
 
+        /// <summary>
+        /// Metoda "AddGymMember" je statička metoda koja dodaje objekt "GymMember" u bazu podataka.
+        /// </summary>
+        /// <param name="gymMember"></param>
         public static void AddGymMember(GymMember gymMember)
         {
             string sql = $"INSERT INTO GymMembers (Id, Name, Surname, Phone, Email, Adress, MembershipStatus) " 
@@ -80,7 +98,10 @@ namespace Third_Assignment.Repositories
             DB.CloseConnection();
         }
 
-        
+        /// <summary>
+        /// Metoda "ShowGymMembers" je statička metoda koja prikazuje podatke o članovima teretane.
+        /// </summary>
+        /// <param name="dataGridView"></param>
         public static void ShowGymMembers(DataGridView dataGridView)
         {
             List<GymMember> gymMembers = GetGymMembers();
@@ -104,7 +125,10 @@ namespace Third_Assignment.Repositories
             
         }
 
-
+        /// <summary>
+        /// Metoda "UpdateGymMember" je statička metoda koja ažurira podatke o članu teretane u bazi podataka.
+        /// </summary>
+        /// <param name="gymMember"></param>
         public static void UpdateGymMember(GymMember gymMember)
         {
             string sql = $"UPDATE GymMembers SET " +

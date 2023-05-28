@@ -19,6 +19,11 @@ namespace Third_Assignment
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Metoda "btnSave_Click" je metoda koja se poziva prilikom klika na gumb "Spremi", stvara novi objekt "GymMember" na temelju unesenih podataka iz tekstualnih polja i dodaje novog člana teretane.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnSave_Click(object sender, EventArgs e)
         {
             GymMember newMember = new GymMember
@@ -32,20 +37,20 @@ namespace Third_Assignment
                 MembershipStatus = txtMembershipStatus.Text
             };
 
-            // Poziv metode za dodavanje novog člana teretane
+            
             GymMemberRepository.AddGymMember(newMember);
 
-            // Obavijest o uspješnom unosu
+           
             MessageBox.Show("Član teretane uspješno dodan.");
 
-            // Ponovno učitavanje popisa članova teretane u FrmDashboard
+           
             FrmDashboard dashboard = Application.OpenForms.OfType<FrmDashboard>().FirstOrDefault();
             if (dashboard != null)
             {
                 dashboard.ShowGymMembersInDataGridView();
             }
 
-            // Zatvaranje trenutne forme
+           
             this.Close();
         }
 
@@ -54,6 +59,11 @@ namespace Third_Assignment
 
         }
 
+        /// <summary>
+        /// Metoda "btnReset_Click" je metoda koja se poziva prilikom klika na gumb "Resetiraj" i služi za brisanje unesenih vrijednosti iz tekstualnih polja.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnReset_Click(object sender, EventArgs e)
         {
             txtId.Clear();

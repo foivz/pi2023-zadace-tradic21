@@ -21,6 +21,11 @@ namespace Third_Assignment
             this.memberId = memberId;
         }
 
+        /// <summary>
+        /// Metoda "FrmUpdateGymMember_Load" je metoda koja se poziva prilikom učitavanja FrmUpdateGymMember forme i dohvaća podatke o određenom članu teretane koristeći.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void FrmUpdateGymMember_Load(object sender, EventArgs e)
         {
             GymMember gymMember = GymMemberRepository.GetGymMember(memberId);
@@ -32,6 +37,12 @@ namespace Third_Assignment
             txtMembershipStatus.Text = gymMember.MembershipStatus;
         }
 
+
+        /// <summary>
+        /// Metoda "btnSave_Click" je metoda koja se poziva prilikom klika na gumb "Spremi" i dohvaća unesene podatke o članu teretane, stvara ažurirani objekt GymMember s tim podacima.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnSave_Click(object sender, EventArgs e)
         {
             string name = txtName.Text;
