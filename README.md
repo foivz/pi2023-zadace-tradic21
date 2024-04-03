@@ -1,12 +1,5 @@
 # Sustav upravljanja teretanom
 
-## Podaci o studentu
-
-Ime i prezime | E-mail adresa (FOI) | JMBAG | Github korisničko ime
-------------  | ------------------- | ----- | ---------------------
-Tea Radić | tradic21@foi.hr | 0016152511 | tradic21
-
-
 ## Opis domene
 Dokument za specifikaciju zahtjeva za sustav upravljanja teretanom.
 
